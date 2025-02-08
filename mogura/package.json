@@ -1,1 +1,29 @@
-
+{
+  "name": "moguratataki-game",
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://yuu-zaa.github.io/moguratataki-game/",
+  "description": "もぐらたたきゲーム - React on GitHub Pages, using Vite bundler",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": ["game", "react", "vite"],
+  "author": "RM",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
+}
